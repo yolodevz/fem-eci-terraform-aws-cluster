@@ -23,3 +23,8 @@ variable "name" {
 variable "vpc_name" {
   type = string
 }
+
+variable "organization_name" {
+  default = "yolodev"
+  type = string
+}
