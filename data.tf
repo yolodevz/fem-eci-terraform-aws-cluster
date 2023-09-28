@@ -75,6 +75,6 @@ data "aws_security_group" "this_private" {
 }
 
 data "tfe_outputs" "tfe" {
-  organization = var.organization_name
+  organization = "yolodev"
   workspace    = "fem-eci-tfe"
 }
